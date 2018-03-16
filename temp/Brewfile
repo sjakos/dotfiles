@@ -1,0 +1,54 @@
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "puma/puma"
+brew "autoconf"
+brew "automake"
+brew "readline"
+brew "python", link: false
+brew "awscli"
+brew "coreutils"
+brew "curl"
+brew "libyaml"
+
+brew "dos2unix"
+brew "gcc"
+brew "git"
+brew "git-lfs"
+brew "libtool"
+brew "graphicsmagick"
+brew "imagemagick"
+brew "jmeter"
+brew "libksba"
+brew "mas"
+brew "openssl@1.1"
+brew "pkg-config"
+brew "putty"
+brew "python@2"
+brew "spark"
+brew "tesseract", args: ["with-all-languages"]
+brew "tmux"
+brew "watch"
+brew "watchman"
+brew "yarn"
+brew "zsh"
+cask "dbeaver-community"
+cask "docker"
+cask "docker-toolbox"
+cask "touch-bar-simulator"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "caskroom/fonts/font-fira-code"
+cask "caskroom/versions/visual-studio-code-insiders"
+mas "GIPHY CAPTURE", id: 668208984
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "macOS High Sierra", id: Install
+mas "Microsoft Remote Desktop", id: 715768417
+mas "MindNode Pro", id: 402398561
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Wunderlist", id: 410628904
+mas "Xcode", id: 497799835
