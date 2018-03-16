@@ -10,7 +10,6 @@ tap "puma/puma"
 brew "autoconf"
 # brew "automake"
 brew "docker", link: false
-brew "docker-compose", link: false
 brew "docker-completion"
 brew "docker-compose-completion"
 brew "coreutils"
@@ -34,13 +33,12 @@ brew "watch"
 brew "watchman"
 brew "zsh"
 
-cask "docker"
-
 unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "gcc"
   brew "mas"
   brew "putty"
   brew "tesseract", args: ["with-all-languages"]
+  brew "docker-compose", link: false
 
   mas "GIPHY CAPTURE", id: 668208984
   mas "iMovie", id: 408981434
@@ -53,6 +51,7 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   mas "Xcode", id: 497799835
 
   # cask "dbeaver-community"
+  cask "docker"
   cask "visual-studio-code"
   cask "caskroom/versions/visual-studio-code-insiders"
   cask "virtualbox"
