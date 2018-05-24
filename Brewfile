@@ -39,15 +39,15 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "putty"
   brew "tesseract", args: ["with-all-languages"]
 
-  mas "GIPHY CAPTURE", id: 668208984
-  mas "iMovie", id: 408981434
-  mas "Keynote", id: 409183694
-  mas "Microsoft Remote Desktop", id: 715768417
-  mas "MindNode Pro", id: 402398561
-  mas "Numbers", id: 409203825
-  mas "Pages", id: 409201541
-  mas "Wunderlist", id: 410628904
-  mas "Xcode", id: 497799835
+  # mas "GIPHY CAPTURE", id: 668208984
+  # mas "iMovie", id: 408981434
+  # mas "Keynote", id: 409183694
+  # mas "Microsoft Remote Desktop", id: 715768417
+  # mas "MindNode Pro", id: 402398561
+  # mas "Numbers", id: 409203825
+  # mas "Pages", id: 409201541
+  # mas "Wunderlist", id: 410628904
+  # mas "Xcode", id: 497799835
 
   # cask "dbeaver-community"
   cask "font-hack-nerd-font"
