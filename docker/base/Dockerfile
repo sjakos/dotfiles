@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 # Create a user
-ENV USER ${DOCKER_USER:-adrian}
+ENV USER ${DOCKER_USER:-sjakos}
 ENV LANG "en_AU.UTF-8"
 ENV LANGUAGE "en_AU:en"
 
