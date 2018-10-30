@@ -23,5 +23,5 @@ Faster development using Docker layers.
 
 ```bash
 docker build --tag=dotfiles -f docker/dev/Dockerfile .
-docker run -it -v ~/.dotfiles:/home/adrian/.dotfiles dotfiles
+docker run -it -v ~/.dotfiles:/home/sjakos/.dotfiles dotfiles
 ```

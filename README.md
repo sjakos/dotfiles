@@ -1,20 +1,18 @@
-# Adrian's dotfiles
+# Sam's dotfiles
 
-🍭 My personal dotfiles. 🍭 Works with macOS and Ubuntu!
+ My personal dotfiles. Works with macOS and Ubuntu!
 
 ## Features
 
 * [ZSH](https://en.wikipedia.org/wiki/Z_shell), [oh-my-zsh](http://ohmyz.sh/), and [Powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
 * [Brewfile](https://github.com/Homebrew/homebrew-bundle) (linux and Mac)
-* Automated install and settings setup for all Mac apps
 * [nvm](https://github.com/creationix/nvm)
 * [Vs Code](https://code.visualstudio.com/)
-* [Spectacle](https://www.spectacleapp.com/)
 
 ## Install
 
 ```bash
-git clone https://github.com/adriancarriger/dotfiles.git ~/.dotfiles
+git clone https://github.com/sjakos/dotfiles.git ~/.dotfiles
 ~/.dotfiles/scripts/bootstrap
 ```
 
@@ -23,12 +21,13 @@ git clone https://github.com/adriancarriger/dotfiles.git ~/.dotfiles
 Try out these Dotfiles using Docker! 🐳
 
 ```bash
-docker pull adriancarriger/dotfiles
-docker run -it -e "DOCKER_USER=adrian" adriancarriger/dotfiles
+docker pull sjakos/dotfiles
+docker run -it -e "DOCKER_USER=sjakos" sjakos/dotfiles
 ```
 
 ## Thanks
 
+* [Adrian Carriger](https://github.com/adriancarriger) - [adrian's dotfiles](https://github.com/adriancarriger/dotfiles)
 * [Zach Holman](https://github.com/holman) - [componentized dotfiles](https://github.com/holman/dotfiles)
 * [Mathias Bynens](https://github.com/mathiasbynens) - [awesome macOS defaults](https://github.com/mathiasbynens/dotfiles)
 
