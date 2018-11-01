@@ -1,5 +1,0 @@
-[user]
-        name = sjakos
-        email = sjakos@users.noreply.github.com
-[credential]
-        helper = osxkeychain
