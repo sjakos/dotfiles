@@ -1,4 +1,7 @@
 [alias]
+        # Pull HEAD from develop and rebase with latest
+        update-from = "!f() { git checkout $1; git pull; git checkout $2; git rebase $1; }; f"
+
         # View abbreviated SHA, description, and history graph of the latest 20 commits
         l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
