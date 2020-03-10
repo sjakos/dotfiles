@@ -48,4 +48,5 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   cask "postman"
   cask "visual-studio-code"
   cask "caskroom/fonts/font-fira-code"
+  cask "azure-data-studio"
 end

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+# Triggers a MacOS notification
+
+osascript -e "display notification \"$*\""
