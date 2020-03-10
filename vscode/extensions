@@ -6,6 +6,7 @@ bierner.markdown-checkbox
 bierner.markdown-emoji
 bierner.markdown-preview-github-styles
 bierner.markdown-yaml-preamble
+bradlc.vscode-tailwindcss
 bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -15,11 +16,14 @@ DotJoshJohnson.xml
 eamodio.gitlens
 eg2.vscode-npm-script
 emmanuelbeziat.vscode-great-icons
+Equinusocio.vsc-community-material-theme
 Equinusocio.vsc-material-theme
+equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.code-runner
 glen-84.sass-lint
+Gruntfuggly.todo-tree
 hollowtree.vue-snippets
 hoovercj.ruby-linter
 Janne252.fontawesome-autocomplete
@@ -28,6 +32,7 @@ mechatroner.rainbow-csv
 misogi.ruby-rubocop
 ms-azuretools.vscode-docker
 ms-mssql.mssql
+ms-ossdata.vscode-postgresql
 ms-python.python
 ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
@@ -35,9 +40,13 @@ octref.vetur
 Orta.vscode-jest
 oysun.vuehelper
 PKief.material-icon-theme
+plievone.vscode-template-literal-editor
 Prisma.vscode-graphql
 rebornix.ruby
+redhat.vscode-yaml
 VisualStudioExptTeam.vscodeintellicode
 vortizhe.simple-ruby-erb
 waderyan.gitblame
+wingrunr21.vscode-ruby
 wmaurer.change-case
+yzhang.markdown-all-in-one
