@@ -26,9 +26,7 @@ brew "libksba"
 brew "libyaml"
 brew "openssl@1.1"
 brew "pkg-config"
-brew "python"
 brew "readline"
-brew "rust-up"
 brew "spark"
 brew "tmux"
 brew "watch"
@@ -43,7 +41,6 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "putty"
   brew "tesseract", args: ["with-all-languages"]
 
-  cask "dbeaver-community"
   cask "font-hack-nerd-font"
   cask "postman"
   cask "visual-studio-code"
