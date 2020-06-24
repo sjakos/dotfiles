@@ -47,7 +47,6 @@
     "> 1%"
   ],
   "explorer.confirmDelete": false,
-  "ruby.rubocop.executePath": "/Users/sjakos/.rvm/gems/ruby-2.4.1/bin/",
   "javascript.suggestionActions.enabled": false,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
